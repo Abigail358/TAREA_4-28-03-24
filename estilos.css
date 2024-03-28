@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white; /* Para asegurar que el texto sea visible en el fondo negro */
+}
+
+.rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.row{
+    background-color: white(117, 228, 200, 0);
+    /*height: 750px;*/
+    margin: 5px;
+}
+
+.col{
+    background-color: yellowgreen;
+    margin: 5px;
+}
+
+.carousel-image {
+    height: 700px; /* Ajusta la altura deseada */
+    object-fit: cover; /* Para asegurarse de que las imágenes mantengan su relación de aspecto */
+}
+
+.carousel-title,
+.carousel-text {
+    color: rgb(0, 0, 0); /* Color del texto */
+
+}
